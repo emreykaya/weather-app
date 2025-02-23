@@ -21,3 +21,8 @@ This is a simple weather forecasting application that allows users to check the 
 - JavaScript
 - OpenWeatherMap API (https://openweathermap.org/)
 
+- ## Note
+
+This project was created with the knowledge gained through a training session provided by GreatStack.
+
+
