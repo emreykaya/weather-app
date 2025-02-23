@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <!-- Preconnect to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Google Fonts for the page -->
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Title of the page -->
+    <title>Weather App</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h2>Weather App</h2>
+        <p>Welcome to my <span>API supported</span> web page where you can learn the weather forecast.</p>
+    </header>
+
+    <!-- Weather Information Card -->
+    <div class="card">
+        <!-- Search Section for City Name -->
+        <div class="search">
+            <input type="text" placeholder="enter city name" spellcheck="false">
+            <button><img src="./assets/images/search.png"></button>
+        </div>
+        
+        <!-- Error Message Section -->
+        <div class="error">
+            <p>Invalid city name</p>
+        </div>
+        
+        <!-- Weather Information Display -->
+        <div class="weather">
+            <img src="./assets/images/rain.png" class="weather-icon">
+            <h1 class="temp"></h1>
+            <h2 class="city"></h2>
+            <div class="details">
+                <!-- Humidity and Wind Speed Information -->
+                <div class="col">
+                    <img src="./assets/images/humidity.png">
+                    <div>
+                        <p class="humidity"></p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="./assets/images/wind.png">
+                    <div>
+                        <p class="wind"></p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Emrecan Yerlikaya. All rights reserved.</p>
+    </footer>
+
+    <!-- JS -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
